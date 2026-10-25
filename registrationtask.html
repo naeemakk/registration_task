@@ -1,0 +1,75 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <h1> User Registration </h1>
+    <form action="">
+        <label for=""> 
+            Firstname:
+            <input type="text" name="fname" placeholder="eg:John" required maxlength="15"><br><br>
+        </label>
+        <label for=""> 
+            Lastname:
+            <input type="text" name="lname" placeholder="eg:doe" required maxlength="15"><br><br>  
+        </label>
+        <label for="">
+            Date Of Birth:
+            <input type="date" id="dob" name="dob">
+        </label><br><br>
+        <label for="">
+            Gender:
+            <input type="radio" name="gender" id="">Male
+            <input type="radio" name="gender" id="">Female
+            <input type="radio" name="gender" id="">Other
+        </label><br><br>
+        <label for="">
+            Qulaification:
+            <input type="checkbox" name="" id="">SSLC
+            <input type="checkbox" name="" id="">PLUS TWO
+            <input type="checkbox" name="" id="">DEGREE
+        </label><br><br>
+        <label for="">
+            Address:
+            <textarea name="address" rows="4" cols="30" required maxlength="200"></textarea>
+        </label><br><br>
+        <label for="select1">
+            State:
+            <select name="" id="select1">
+                    <option value="kl">Kerala</option>
+                    <option value="tn">Tamil Nadu</option>
+                    <option value="Ka">Karnataka</option>
+                    <option value="ap">Andhra Pradesh</option>
+            </select>
+        </label>
+        <label for="">
+            Pincode:
+            <input type="text" name="" required pattern="[0-9]{6}" maxlength="6">
+        </label><br><br>
+        <label for="">
+            Email:
+            <input type="email" name="email" placeholder="john@gmail.com" required>
+        </label><br><br>
+        <label for="">
+            Phone:
+            <input type="tel" name="number" required pattern="[6-9][0-9]{9}" maxlength="10">
+        </label><br><br>
+        <label for="">
+            Username:
+            <input type="text" name="uname" placeholder="eg:johndoe" required maxlength="6">
+        </label><br><br>
+        <label for="">
+            Password:
+            <input type="password" name="pswd" id="" required maxlength="6">
+        </label><br><br>
+        <label for="">
+            <button type="submit">Submit</button>
+            <button type="Reset">reset</button>
+        </label>
+    </form>
+</body>
+</html> 
+
